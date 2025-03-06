@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+input, label {
+    width: 100%;
+}
+
+.custom-file label {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px dashed #007bff;
+    text-align: center;
+    display: block;
+    transition: all 0.3s;
+}
+
+.custom-file label:hover {
+    background: #007bff;
+    color: white;
+}
