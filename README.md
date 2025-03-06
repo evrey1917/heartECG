@@ -1,5 +1,33 @@
-# heartECG
-Recognize heart patologies with ECG
+# **ECG Health Check (Django App)**  
 
-# Original dataset
-https://springernature.figshare.com/collections/A_large-scale_multi-label_12-lead_electrocardiogram_database_with_standardized_diagnostic_statements/5779802/1
+A Django-based application for uploading `.h5` files containing ECG data, entering height and weight, and analyzing the health status.  
+
+## 🚀 **How to Run the Project**  
+
+### **1. Clone the Repository**  
+```bash
+git clone -b site https://github.com/evrey1917/heartECG.git
+cd heartECG
+```
+### **2. Install dependences**  
+```bash
+pip install -r req.txt
+
+```
+### **3. Apply Database Migrations**
+```bash
+python manage.py makemigrations site_ECG
+python manage.py migrate
+```
+### **4. Run the Server**
+```bash
+python manage.py runserver
+```
+Now, open your browser and go to:
+http://127.0.0.1:8000/
+
+
+## 🛠 **How to Use**
+### **1.Upload an .h5 file containing ECG data and enter height and weight.**
+### **2.Click the "Submit" button.**
+### **3.The server processes the data and provides a result: "Healthy" or "Abnormalities detected".**
