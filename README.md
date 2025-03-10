@@ -1,3 +1,7 @@
+# **Month report**  
+
+https://docs.google.com/presentation/d/1avHUWtMO73m8kjQsVnwcHC3RDxnyX3yIQ44hBJESsgc/edit#slide=id.p
+
 # **ECG Health Check (Django App)**  
 
 A Django-based application for uploading `.h5` files containing ECG data, entering height and weight, and analyzing the health status.  
